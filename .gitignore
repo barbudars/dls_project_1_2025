@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# VSCode settings
+.vscode/
+
+# Logs and results
+logs/
+log/
+results/
+*.log
+*.out
+*.tmp
+
+# Model weights and datasets
+*.pth
+*.pkl
+pretrained/
+datasets/
+
+# StyleGAN2-ADA repo (скачивается автоматически)
+stylegan2-ada-pytorch/
+
+# Streamlit cache
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Other
+*.bak
+*.swp
+*.swo 
